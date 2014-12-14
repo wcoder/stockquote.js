@@ -1,0 +1,19 @@
+<article>
+	<p><img src="<%= this.Img %>"></p>
+	<p id="company-name"><span><%= this.Name %></span> (<%= this.ExchangeShortName %>:<%= this.Ticker %>)</p>
+	<br/>
+	<p>
+		<span id="company-price">$<%= this.Last %></span>
+		<% if (this.Change > 0) { %>
+			<span class="plus">
+		<% } else { %>
+			<span class="minus">
+		<% } %>
+		<%= this.Change %> (<%= this.ChangePercent %> %)</span>
+	</p>
+	<br/>
+	<p class="company-bid">Pre-market: <%= this.Bid %></p>
+	<p class="company-range">Range: <%= this.Range %></p>
+	<p class="company-open">Open: <%= this.Open %></p>
+	<p class="company-date">Date: <%= (new Date(this.TradeTime * 1000)).toGMTString() %></p>
+</article>

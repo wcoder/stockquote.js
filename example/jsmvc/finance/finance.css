@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body {
+	font-family: Lucida Sans,Lucida Grande,Arial,sans-serif;
+	margin: 0;
+	line-height: 22px;
+	width: 960px;
+	margin: 0 auto;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+header {
+	margin: 20px 0;
+}
+header a h1 span,
+header a h4 span {
+	color: #ff7f00;
+}
+header a h4 {
+	margin-top: 0;
+}
+
+#quotes h4,
+#search h4 {
+	text-align: center;
+	margin: 30px 0 10px 0;
+	font-size: 16pt;
+	font-weight: 100;
+}
+
+#company-name {
+	font-size: 1em;
+	color: #CCC;
+}
+#company-name span {
+	font-size: 2em;
+	margin-right: 100px;
+	color: #333;
+}
+#company-price {
+	font-size: 2em;
+	color: #333;
+}
+.company-other-info {
+	color: #999;
+}
+.plus {
+	color: #093;
+}
+.minus {
+	color: #D14836;
+}
+.hideBlock {
+	display: none;
+}
+
+#search section {
+	margin-top: 20px;
+}
+article {
+	border: 1px solid #F0F0F0;
+	padding: 20px;
+}
+article img {
+	float: right;	
+}
+table a {
+	color: #ff7f00;
+}
+footer {
+	margin-top: 40px;
+	border-top: 1px solid #CCC;
+}
+footer p {
+	font-size: 0.7em;
+	color: #CCC;
+}

@@ -1,0 +1,67 @@
+table.tablesorter {
+	font-family:arial;
+	border: 1px solid #CCC;
+	margin: 0;
+	font-size: 10pt;
+	width: 100%;
+	text-align: left;
+	border-radius: 5px;
+	border-spacing: 0;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #F5F5F5;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 5px;
+	border-radius: 5px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 5px;
+	background-color: #FFF;
+	vertical-align: top;
+	border-bottom: 1px solid #F0F0F0;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortDown, 
+table.tablesorter thead tr .headerSortUp {
+	color: #666;
+	background-color: #ffd4ad;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+
+table.tablesorter thead th {
+	width: 8%;
+}
+table.tablesorter thead .name {
+	width: 35%;
+}
+table.tablesorter .price,
+table.tablesorter .change,
+table.tablesorter .changep,
+table.tablesorter .open {
+	text-align: right;
+}
+table.tablesorter thead .date {
+	width: 25%;
+}
+
+table.tablesorter td.plus {
+	color: #093;
+}
+table.tablesorter td.minus {
+	color: #D14836;
+}
