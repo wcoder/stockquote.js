@@ -19,10 +19,10 @@ $.stockquote({
 ```
  
 ## Documentation
-!!! For script operation, the jQuery library is necessary !!!
+> For script operation, the jQuery library is necessary
  
 ### Input data
-!!! All parameters are required !!!
+>  All parameters are required
 
 #### service
 Data format: a line with characters lower or an uppercase.
@@ -43,8 +43,9 @@ Data format: the function obtained as the input paracop data on the requested co
  
 ### Output data
 If it is successful:
- - one - Object
- - list - Array of objects
+ - one - `Object`
+ - list - `Array of objects`
+
 If error: `false`
  
 Properties of returned object for each of the companies:
